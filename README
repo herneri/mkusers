@@ -1,0 +1,12 @@
+mkusers creates a database of however many random users you want to generate.
+This can be useful for learning how to use SQL or for creating a set of users to test
+your website with.
+
+Random user generation is made possible by the randomuser.me API. (https://randomuser.me)
+
+-- Usage --
+mkusers [DATABASE NAME] [NUMBER OF USERS]
+
+-- Dependencies --
+PycURL
+SQLite 3
